@@ -1,0 +1,13 @@
+# Compilación y salidas
+/build/
+/out/
+
+# Configuración de Gradle (Directorio de caché local)
+/.gradle/
+
+# Archivos de configuración de IDEs (IntelliJ IDEA)
+/.idea/
+*.iml
+
+# Registro de errores y logs
+*.log
