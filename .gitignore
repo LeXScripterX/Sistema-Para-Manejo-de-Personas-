@@ -1,13 +1,26 @@
-# Compilación y salidas
-/build/
-/out/
+# Spring
+application.properties
+application.yml
 
-# Configuración de Gradle (Directorio de caché local)
-/.gradle/
+# Variables entorno
+.env
 
-# Archivos de configuración de IDEs (IntelliJ IDEA)
-/.idea/
-*.iml
+# Certificados
+*.pem
+*.jks
+*.key
+*.crt
 
-# Registro de errores y logs
+# Logs
+logs/
 *.log
+
+# Maven
+target/
+
+# IDE
+.idea/
+.vscode/
+
+# SO
+.DS_Store
